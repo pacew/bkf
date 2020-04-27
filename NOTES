@@ -15,6 +15,10 @@ enable ssh:
 apple -> system preferences -> Sharing
 turn on Remote Login
 
+disable power saver:
+apple -> system prefreences -> Energy Saver
+check "Prevent computer from sleeping automatically"
+
 run in terminal:
 search icon in upper right -> terminal.app
 
