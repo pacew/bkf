@@ -1,3 +1,4 @@
 ./login-seutp
 
-launchctl load wendy-tunnel.plist
+sudo chown root wendy-tunnel.plist
+sudo launchctl load wendy-tunnel.plist
