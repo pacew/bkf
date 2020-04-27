@@ -1,6 +1,8 @@
 ./login-seutp
 
-sudo chown root wendy-tunnel.plist
-sudo launchctl load wendy-tunnel.plist
 
 sudo cp wendy-tunnel.plist /Library/LaunchDaemons/
+sudo launchctl load /Library/LaunchDaemons/wendy-tunnel.plist
+
+sudo launchctl remove org.pacew.app
+
