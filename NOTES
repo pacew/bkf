@@ -1,5 +1,32 @@
-./login-seutp
+bootstrap
 
+jeffrey:
+
+make pace acct:
+apple -> system preferences -> users & groups
+unlock
++
+change Standard to Administrator
+full name: pace
+account name: pace (all lowercase)
+password:
+
+enable ssh:
+apple -> system preferences -> Sharing
+turn on Remote Login
+
+run in terminal:
+search icon in upper right -> terminal.app
+
+paste in this command to "%" prompt
+
+ssh -NTC -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -R 8781:localhost:22 -p 2221 jeffrey@k.pacew.org
+
+
+
+git clone https://github.com/pacew/bkf.git
+
+./login-setup
 
 sudo cp wendy-tunnel.plist /Library/LaunchDaemons/
 sudo launchctl load /Library/LaunchDaemons/wendy-tunnel.plist
