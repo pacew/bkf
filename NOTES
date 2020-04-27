@@ -2,3 +2,5 @@
 
 sudo chown root wendy-tunnel.plist
 sudo launchctl load wendy-tunnel.plist
+
+sudo cp wendy-tunnel.plist /Library/LaunchDaemons/

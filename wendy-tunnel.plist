@@ -6,7 +6,10 @@
 		<string>org.pacew.app</string>
 		<key>Program</key>
 		<string>/Users/pace/bkf/wendy-tunnel</string>
-		<key>RunAtLoad</key>
-		<true/>
+		<key>KeepAlive</key>
+		<dict>
+		  <key>NetworkState</key>
+		  <true/>
+		</dict>
 	</dict>
 </plist>
