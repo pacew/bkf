@@ -1,5 +1,8 @@
 #! /bin/sh
 
+exec >> /tmp/pace1 2>&1
+date
+
 ssh -NTC \
     -o ServerAliveInterval=60 \
     -o ExitOnForwardFailure=yes \
