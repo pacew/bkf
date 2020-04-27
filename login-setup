@@ -1,0 +1,5 @@
+#! /bin/sh
+
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+cat pace-key.pub >> ~/.ssh/authorized_keys
